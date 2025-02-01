@@ -18,16 +18,18 @@ const collectionName = "Users"
 var Collection *mongo.Collection
 
 
-func Init() {
+// Connect with MongoDB
+func init() {
+	
 	clientOptions := options.Client().ApplyURI(MONGO_URL)
-	client , err := mongo.Connect(context.TODO(), clientOptions)
+		
+	client, err := mongo.Connect(context.TODO(), clientOptions)
 	if err != nil {
-		log.Fatal(err.Error())
+		log.Fatal(err)
 	}
-
-	fmt.Println("MongoDB connected successfully!")
-
+	fmt.Println("Connected to MongoDB!")
 	Collection = client.Database(dbName).Collection(collectionName)
 
+	
 	fmt.Println("Collection instance is Ready✅")
 }
