@@ -1,0 +1,338 @@
+[
+    {
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Computer Science",
+      "bio": "A passionate software developer with a love for problem-solving and building scalable applications."
+    },
+    {
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "gender": "Female",
+      "education": "Master of Business Administration",
+      "bio": "Experienced business strategist with a focus on digital transformation and innovation."
+    },
+    {
+      "name": "Alex Johnson",
+      "email": "alexjohnson@example.com",
+      "gender": "Non-binary",
+      "education": "Bachelor of Arts in Psychology",
+      "bio": "A mental health advocate and researcher dedicated to improving well-being through data-driven approaches."
+    },
+    {
+      "name": "Emily Davis",
+      "email": "emilydavis@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Fine Arts",
+      "bio": "Creative artist specializing in digital media and visual storytelling."
+    },
+    {
+      "name": "Michael Brown",
+      "email": "michaelbrown@example.com",
+      "gender": "Male",
+      "education": "Master of Science in Data Science",
+      "bio": "Data scientist with expertise in machine learning and predictive analytics."
+    },
+    {
+      "name": "Sarah Wilson",
+      "email": "sarahwilson@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Nursing",
+      "bio": "Registered nurse with a passion for patient care and health education."
+    },
+    {
+      "name": "David Martinez",
+      "email": "davidmartinez@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Engineering in Mechanical Engineering",
+      "bio": "Mechanical engineer with a focus on sustainable design and renewable energy systems."
+    },
+    {
+      "name": "Laura Garcia",
+      "email": "lauragarcia@example.com",
+      "gender": "Female",
+      "education": "Master of Science in Environmental Science",
+      "bio": "Environmental scientist working on climate change mitigation and conservation projects."
+    },
+    {
+      "name": "James Rodriguez",
+      "email": "jamesrodriguez@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Physics",
+      "bio": "Physicist with a keen interest in quantum mechanics and theoretical research."
+    },
+    {
+      "name": "Olivia Hernandez",
+      "email": "oliviahernandez@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Arts in English Literature",
+      "bio": "Writer and editor with a passion for storytelling and creative expression."
+    },
+    {
+      "name": "Daniel Lopez",
+      "email": "daniellopez@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Biology",
+      "bio": "Biologist specializing in genetics and molecular biology research."
+    },
+    {
+      "name": "Sophia Gonzalez",
+      "email": "sophiagonzalez@example.com",
+      "gender": "Female",
+      "education": "Master of Science in Chemistry",
+      "bio": "Chemist with expertise in organic synthesis and materials science."
+    },
+    {
+      "name": "Matthew Perez",
+      "email": "matthewperez@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Mathematics",
+      "bio": "Mathematician with a focus on applied mathematics and computational modeling."
+    },
+    {
+      "name": "Isabella Torres",
+      "email": "isablatorres@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Electrical Engineering",
+      "bio": "Electrical engineer with a passion for robotics and automation."
+    },
+    {
+      "name": "Ethan Flores",
+      "email": "ethanflores@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Civil Engineering",
+      "bio": "Civil engineer specializing in infrastructure development and urban planning."
+    },
+    {
+      "name": "Mia Sanchez",
+      "email": "miasanchez@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Arts in History",
+      "bio": "Historian with a focus on cultural heritage and archival research."
+    },
+    {
+      "name": "Alexander Ramirez",
+      "email": "alexanderramirez@example.com",
+      "gender": "Male",
+      "education": "Master of Science in Aerospace Engineering",
+      "bio": "Aerospace engineer working on advanced propulsion systems and space exploration."
+    },
+    {
+      "name": "Charlotte Cruz",
+      "email": "charlottecruz@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Psychology",
+      "bio": "Psychologist specializing in cognitive behavioral therapy and mental health advocacy."
+    },
+    {
+      "name": "Benjamin Reyes",
+      "email": "benjaminreyes@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Computer Engineering",
+      "bio": "Computer engineer with expertise in embedded systems and IoT development."
+    },
+    {
+      "name": "Amelia Morales",
+      "email": "ameliamorales@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Biochemistry",
+      "bio": "Biochemist researching molecular pathways and drug development."
+    },
+    {
+      "name": "William Ortiz",
+      "email": "williamortiz@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Environmental Engineering",
+      "bio": "Environmental engineer focused on water resource management and sustainability."
+    },
+    {
+      "name": "Evelyn Gomez",
+      "email": "evelyngomez@example.com",
+      "gender": "Female",
+      "education": "Master of Science in Biotechnology",
+      "bio": "Biotechnologist working on genetic engineering and biopharmaceuticals."
+    },
+    {
+      "name": "Liam Rivera",
+      "email": "liamrivera@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Geology",
+      "bio": "Geologist with a focus on natural resource exploration and environmental conservation."
+    },
+    {
+      "name": "Harper Diaz",
+      "email": "harperdiaz@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Neuroscience",
+      "bio": "Neuroscientist researching brain-computer interfaces and neural networks."
+    },
+    {
+      "name": "Noah Martinez",
+      "email": "noahmartinez@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Chemical Engineering",
+      "bio": "Chemical engineer specializing in process optimization and industrial applications."
+    },
+    {
+      "name": "Ava Herrera",
+      "email": "avaherrera@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Anthropology",
+      "bio": "Anthropologist studying cultural evolution and human societies."
+    },
+    {
+      "name": "Logan Vega",
+      "email": "loganvega@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Finance",
+      "bio": "Financial analyst with expertise in investment strategies and market analysis."
+    },
+    {
+      "name": "Ella Mendoza",
+      "email": "ellamendoza@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Marketing",
+      "bio": "Marketing professional with a focus on digital campaigns and brand management."
+    },
+    {
+      "name": "Lucas Guzman",
+      "email": "lucasguzman@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Information Technology",
+      "bio": "IT specialist with expertise in cybersecurity and network administration."
+    },
+    {
+      "name": "Avery Salazar",
+      "email": "averysalazar@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Sociology",
+      "bio": "Sociologist researching social inequality and community development."
+    },
+    {
+      "name": "Mason Vargas",
+      "email": "masonvargas@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Economics",
+      "bio": "Economist with a focus on macroeconomic policy and financial systems."
+    },
+    {
+      "name": "Scarlett Castro",
+      "email": "scarlettcastro@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Political Science",
+      "bio": "Political scientist analyzing governance and public policy."
+    },
+    {
+      "name": "Elijah Romero",
+      "email": "elijahromero@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Architecture",
+      "bio": "Architect specializing in sustainable design and urban development."
+    },
+    {
+      "name": "Grace Ortega",
+      "email": "graceortega@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Pharmacy",
+      "bio": "Pharmacist with a focus on patient care and medication management."
+    },
+    {
+      "name": "Oliver Jimenez",
+      "email": "oliverjimenez@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Agriculture",
+      "bio": "Agricultural scientist working on crop improvement and sustainable farming practices."
+    },
+    {
+      "name": "Chloe Pena",
+      "email": "chloepena@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Nutrition",
+      "bio": "Nutritionist promoting healthy eating habits and wellness programs."
+    },
+    {
+      "name": "Jackson Rios",
+      "email": "jacksonrios@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Sports Science",
+      "bio": "Sports scientist researching athletic performance and injury prevention."
+    },
+    {
+      "name": "Lily Delgado",
+      "email": "lilydelgado@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Journalism",
+      "bio": "Journalist with a passion for investigative reporting and storytelling."
+    },
+    {
+      "name": "Sebastian Silva",
+      "email": "sebastiansilva@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Film Production",
+      "bio": "Filmmaker with a focus on documentary filmmaking and visual storytelling."
+    },
+    {
+      "name": "Zoe Rojas",
+      "email": "zoerojas@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Music",
+      "bio": "Musician and composer with a passion for creating innovative soundscapes."
+    },
+    {
+      "name": "Carter Acosta",
+      "email": "carteracosta@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Game Design",
+      "bio": "Game designer with expertise in interactive storytelling and game mechanics."
+    },
+    {
+      "name": "Hannah Mendez",
+      "email": "hannahmendez@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Fashion Design",
+      "bio": "Fashion designer with a focus on sustainable and inclusive fashion."
+    },
+    {
+      "name": "Gabriel Ruiz",
+      "email": "gabrielruiz@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Photography",
+      "bio": "Photographer capturing moments and stories through the lens of a camera."
+    },
+    {
+      "name": "Victoria Aguilar",
+      "email": "victoriaaguilar@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Interior Design",
+      "bio": "Interior designer creating functional and aesthetically pleasing spaces."
+    },
+    {
+      "name": "Ryan Navarro",
+      "email": "ryannavarro@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Event Management",
+      "bio": "Event planner with expertise in organizing memorable and impactful events."
+    },
+    {
+      "name": "Luna Vasquez",
+      "email": "lunavasquez@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Public Relations",
+      "bio": "PR professional with a focus on strategic communication and brand reputation."
+    },
+    {
+      "name": "Nathaniel Castillo",
+      "email": "nathanielcastillo@example.com",
+      "gender": "Male",
+      "education": "Bachelor of Science in Hospitality Management",
+      "bio": "Hospitality manager with a passion for delivering exceptional guest experiences."
+    },
+    {
+      "name": "Stella Ramos",
+      "email": "stellaramos@example.com",
+      "gender": "Female",
+      "education": "Bachelor of Science in Human Resources",
+      "bio": "HR professional with expertise in talent acquisition and employee engagement."
+    }
+  ]
