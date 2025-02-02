@@ -48,3 +48,7 @@ _testmain.go
 
 # Log files
 *.log
+
+
+
+users.json

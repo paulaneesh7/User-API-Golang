@@ -3,6 +3,7 @@ package controller
 import (
 	"encoding/json"
 	"net/http"
+	"os"
 
 	"github.com/gorilla/mux"
 	"github.com/paulaneesh7/Users_API/helpers"
@@ -45,7 +46,14 @@ func UpdateUserController(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
 	params := mux.Vars(r)
+	key := params["key"]
 	id := params["id"]
+
+	secretKey := os.Getenv("SECRET_KEY")
+	if key != secretKey {
+		json.NewEncoder(w).Encode("Invalid key! Acccess denied")
+		return
+	}
 
 	var user model.User
 	json.NewDecoder(r.Body).Decode(&user)
@@ -61,7 +69,14 @@ func DeleteUserController(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
 	params := mux.Vars(r)
+	key := params["key"]
 	id := params["id"]
+
+	secretKey := os.Getenv("SECRET_KEY")
+	if key != secretKey {
+		json.NewEncoder(w).Encode("Invalid key! Acccess denied")
+		return
+	}
 
 	helpers.DeleteUserById(id)
 	json.NewEncoder(w).Encode("User deleted successfully✅")
