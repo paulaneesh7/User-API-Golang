@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 
+	configs "github.com/paulaneesh7/Users_API/config"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
@@ -21,7 +22,7 @@ var Collection *mongo.Collection
 // Connect with MongoDB
 func init() {
 	
-	clientOptions := options.Client().ApplyURI(MONGO_URL)
+	clientOptions := options.Client().ApplyURI(configs.EnvMongoURI())
 		
 	client, err := mongo.Connect(context.TODO(), clientOptions)
 	if err != nil {
