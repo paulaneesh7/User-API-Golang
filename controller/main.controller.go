@@ -28,6 +28,17 @@ func GetUsersController(w http.ResponseWriter, r *http.Request) {
 }
 
 
+func GetUserController(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+
+	params := mux.Vars(r)
+	id := params["id"]
+
+	user := helpers.GetUserById(id)
+	json.NewEncoder(w).Encode(user)
+}
+
+
 
 // PUT
 func UpdateUserController(w http.ResponseWriter, r *http.Request) {

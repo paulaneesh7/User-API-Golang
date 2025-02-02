@@ -52,6 +52,30 @@ func GetAllUsers() []model.User {
 	return results
 }
 
+
+
+func GetUserById(id string) model.User {
+	Id, err := primitive.ObjectIDFromHex(id)
+	if err != nil {
+		log.Fatal(err.Error())
+	}
+
+	ctx, cancel := utils.CreateContext(10 * time.Second)
+	defer cancel()
+
+	filter := bson.M{"_id": Id}
+
+	var user model.User
+	err = db.Collection.FindOne(ctx, filter).Decode(&user)
+	if err != nil {
+		log.Fatal(err.Error())
+	}
+
+	fmt.Println("User found✅: ", user)
+	return user
+}
+
+
 // UpdateById can also be istead of UpdateOne (check the mongo docs for UpdateById)
 func UpdateUserById(id string, user model.User) model.User {
 	Id, err := primitive.ObjectIDFromHex(id)
