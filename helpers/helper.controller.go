@@ -123,3 +123,17 @@ func DeleteUserById(id string) {
 
 	fmt.Println("User deleted successfully✅ ")
 }
+
+
+
+func GetCountOfUsers() int64 {
+	ctx, cancel := utils.CreateContext(10 * time.Second)
+	defer cancel()
+
+	count, err := db.Collection.CountDocuments(ctx, bson.D{{}})
+	if err != nil {
+		log.Fatal(err.Error())
+	}
+
+	return count
+}

@@ -81,3 +81,12 @@ func DeleteUserController(w http.ResponseWriter, r *http.Request) {
 	helpers.DeleteUserById(id)
 	json.NewEncoder(w).Encode("User deleted successfully✅")
 }
+
+
+
+// COUNT of users (data)
+func GetCountOfUsersController(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	count := helpers.GetCountOfUsers()
+	json.NewEncoder(w).Encode(count)
+}
